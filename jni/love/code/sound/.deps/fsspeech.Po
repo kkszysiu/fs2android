@@ -1,0 +1,1 @@
+sound/fsspeech.o: sound/fsspeech.cpp

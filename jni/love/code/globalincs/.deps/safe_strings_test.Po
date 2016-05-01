@@ -1,0 +1,1 @@
+globalincs/safe_strings_test.o: globalincs/safe_strings_test.cpp

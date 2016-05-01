@@ -1,0 +1,208 @@
+android/glob.o: android/glob.c \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/cdefs.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/cdefs_elf.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/android/api-level.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/param.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/syslimits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/param.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/param.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/param.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/stat.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stddef.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/__stddef_max_align_t.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stdint.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdint.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/machine/wchar_limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/int-ll64.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/bitsperlong.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/bitsperlong.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/posix_types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/stddef.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/compiler.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/posix_types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/posix_types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/sysmacros.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/time.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/time.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/stat.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/endian.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/endian.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/ctype.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/xlocale.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/dirent.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/errno.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/errno.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/errno.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/errno.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/errno-base.h \
+  android/glob.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/pwd.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdio.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stdarg.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdlib.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/string.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/malloc.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/alloca.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/strings.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/memory.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/unistd.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/select.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/signal.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/sigcontext.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/signal.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/signal.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/signal-defs.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/siginfo.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/siginfo.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/ucontext.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/user.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/sysconf.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/pathconf.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/wchar.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/time.h
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/cdefs.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/cdefs_elf.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/android/api-level.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/param.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/syslimits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/param.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/param.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/param.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/stat.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stddef.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/__stddef_max_align_t.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stdint.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdint.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/machine/wchar_limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/int-ll64.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/bitsperlong.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/posix_types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/stddef.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/compiler.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/posix_types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/posix_types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/sysmacros.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/time.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/time.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/stat.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/endian.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/endian.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/ctype.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/xlocale.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/dirent.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/errno.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/errno.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/errno.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/errno.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/errno-base.h:
+
+android/glob.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/pwd.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdio.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stdarg.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdlib.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/string.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/malloc.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/alloca.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/strings.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/memory.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/unistd.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/select.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/signal.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/sigcontext.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/signal.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/signal.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/signal-defs.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/siginfo.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/siginfo.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/ucontext.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/user.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/sysconf.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/pathconf.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/wchar.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/time.h:

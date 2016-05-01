@@ -1,0 +1,1 @@
+network/stand_gui.o: network/stand_gui.cpp

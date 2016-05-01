@@ -1,0 +1,815 @@
+weapon/corkscrew.o: weapon/corkscrew.cpp debugconsole/console.h \
+  debugconsole/consoleparse.h globalincs/pstypes.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdio.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/cdefs.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/cdefs_elf.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/android/api-level.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stddef.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/__stddef_max_align_t.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stdint.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdint.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/machine/wchar_limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/int-ll64.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/bitsperlong.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/bitsperlong.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/posix_types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/stddef.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/compiler.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/posix_types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/posix_types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/sysmacros.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stdarg.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdlib.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/string.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/malloc.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/xlocale.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/alloca.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/strings.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/memory.h \
+  globalincs/toolchain.h globalincs/toolchain/clang.h \
+  windows_stub/config.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/unistd.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/select.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/time.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/time.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/signal.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/errno.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/errno.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/errno.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/errno.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/errno-base.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/limits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/syslimits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/sigcontext.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/signal.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/signal.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/signal-defs.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/siginfo.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/siginfo.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/ucontext.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/user.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/sysconf.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/pathconf.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_main.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_stdinc.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_config.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_platform.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/begin_code.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/close_code.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/inttypes.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/inttypes.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/ctype.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/math.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_assert.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_atomic.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_audio.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_error.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_endian.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/endian.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/endian.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_mutex.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_thread.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_rwops.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_clipboard.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_cpuinfo.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_events.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_video.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_pixels.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_rect.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_surface.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_blendmode.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_keyboard.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_keycode.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_scancode.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_mouse.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_joystick.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_gamecontroller.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_quit.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_gesture.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_touch.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_filesystem.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_haptic.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_hints.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_loadso.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_log.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_messagebox.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_power.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_render.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_system.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_timer.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_version.h \
+  osapi/outwnd.h math/fix.h math/floating.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/float.h \
+  globalincs/fsmemory.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/new \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/c++config.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/os_defines.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/cpu_defines.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/exception \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/atomic_lockfree_defines.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/exception_ptr.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/exception_defines.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/nested_exception.h \
+  globalincs/vmallocator.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/vector \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_algobase.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/functexcept.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/cpp_type_traits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/type_traits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/numeric_traits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_pair.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/move.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/concept_check.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/type_traits \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_iterator_base_types.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_iterator_base_funcs.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/debug/debug.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_iterator.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/ptr_traits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/predefined_ops.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/allocator.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/c++allocator.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/new_allocator.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/memoryfwd.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_construct.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/alloc_traits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/alloc_traits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_uninitialized.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_vector.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/initializer_list \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_bvector.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/functional_hash.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/hash_bytes.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/range_access.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/vector.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/list \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_list.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/list.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/map \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_tree.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_function.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/backward/binders.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/aligned_buffer.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_map.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/tuple \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/utility \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_relops.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/array \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/stdexcept \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/string \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stringfwd.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/char_traits.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/postypes.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cwchar \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/wchar.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/time.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cstdint \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/localefwd.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/c++locale.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/clocale \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/locale.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/iosfwd \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cctype \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/ostream_insert.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/cxxabi_forced.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/basic_string.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/atomicity.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/gthr.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/gthr-default.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/pthread.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sched.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/sched.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/atomic_word.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/basic_string.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/uses_allocator.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_multimap.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/sstream \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/istream \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ios \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/ios_base.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/locale_classes.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/locale_classes.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/streambuf \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/streambuf.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/basic_ios.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/locale_facets.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cwctype \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/wctype.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/ctype_base.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/streambuf_iterator.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/ctype_inline.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/locale_facets.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/basic_ios.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ostream \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/ostream.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/istream.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/sstream.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/queue \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/deque \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_deque.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/deque.tcc \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_heap.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_queue.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/unordered_map \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/hashtable.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/hashtable_policy.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/unordered_map.h \
+  globalincs/safe_strings.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cstdarg \
+  freespace2/freespace.h camera/camera.h globalincs/globals.h \
+  graphics/2d.h bmpman/bmpman.h cfile/cfile.h graphics/tmapper.h \
+  object/object.h math/vecmat.h physics/physics.h \
+  globalincs/systemvars.h io/timer.h ship/ship.h ai/ai.h \
+  ai/ai_profiles.h object/waypoint.h fireball/fireballs.h \
+  model/modelrender.h graphics/gropengltnl.h graphics/gropengl.h \
+  /usr/X11/include/GL/gl.h /usr/X11/include/GL/glext.h \
+  /usr/X11/include/GL/glu.h graphics/grinternal.h graphics/font.h \
+  graphics/shadows.h model/model.h lighting/lighting.h hud/hud.h \
+  hud/hudgauges.h hud/hudparse.h model/modelanim.h network/multi_obj.h \
+  palman/palman.h radar/radarsetup.h hud/hudconfig.h render/3d.h \
+  graphics/grbatch.h species_defs/species_defs.h gamesnd/gamesnd.h \
+  mission/missionparse.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/setjmp.h \
+  /Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/machine/setjmp.h \
+  io/keycontrol.h controlconfig/controlsconfig.h parse/sexp.h \
+  sound/sound.h graphics/generic.h anim/animplay.h \
+  mission/missionbriefcommon.h anim/packunpack.h weapon/shockwave.h \
+  weapon/trails.h weapon/corkscrew.h weapon/weapon.h
+
+debugconsole/console.h:
+
+debugconsole/consoleparse.h:
+
+globalincs/pstypes.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdio.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/cdefs.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/cdefs_elf.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/android/api-level.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stddef.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/__stddef_max_align_t.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stdint.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdint.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/machine/wchar_limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/int-ll64.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/bitsperlong.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/posix_types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/stddef.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/compiler.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/posix_types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/posix_types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/sysmacros.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/stdarg.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/stdlib.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/string.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/malloc.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/xlocale.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/alloca.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/strings.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/memory.h:
+
+globalincs/toolchain.h:
+
+globalincs/toolchain/clang.h:
+
+windows_stub/config.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/unistd.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/select.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/time.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/time.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/signal.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/errno.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/errno.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/errno.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/errno.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/errno-base.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/limits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/syslimits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/sigcontext.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/signal.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/signal.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/signal-defs.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm/siginfo.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/asm-generic/siginfo.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/ucontext.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/user.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/sysconf.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/pathconf.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_main.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_stdinc.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_config.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_platform.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/begin_code.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/close_code.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/inttypes.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/inttypes.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/ctype.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/math.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_assert.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_atomic.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_audio.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_error.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_endian.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/endian.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sys/endian.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_mutex.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_thread.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_rwops.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_clipboard.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_cpuinfo.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_events.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_video.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_pixels.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_rect.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_surface.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_blendmode.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_keyboard.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_keycode.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_scancode.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_mouse.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_joystick.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_gamecontroller.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_quit.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_gesture.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_touch.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_filesystem.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_haptic.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_hints.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_loadso.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_log.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_messagebox.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_power.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_render.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_system.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_timer.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/SDL2/SDL_version.h:
+
+osapi/outwnd.h:
+
+math/fix.h:
+
+math/floating.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain/bin/../lib64/clang/3.8.243773/include/float.h:
+
+globalincs/fsmemory.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/new:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/c++config.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/os_defines.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/cpu_defines.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/exception:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/atomic_lockfree_defines.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/exception_ptr.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/exception_defines.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/nested_exception.h:
+
+globalincs/vmallocator.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/vector:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_algobase.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/functexcept.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/cpp_type_traits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/type_traits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/numeric_traits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_pair.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/move.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/concept_check.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/type_traits:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_iterator_base_types.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_iterator_base_funcs.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/debug/debug.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_iterator.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/ptr_traits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/predefined_ops.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/allocator.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/c++allocator.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/new_allocator.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/memoryfwd.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_construct.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/alloc_traits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/alloc_traits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_uninitialized.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_vector.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/initializer_list:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_bvector.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/functional_hash.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/hash_bytes.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/range_access.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/vector.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/list:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_list.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/list.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/map:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_tree.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_function.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/backward/binders.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/aligned_buffer.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_map.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/tuple:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/utility:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_relops.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/array:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/stdexcept:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/string:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stringfwd.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/char_traits.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/postypes.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cwchar:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/wchar.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/time.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cstdint:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/localefwd.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/c++locale.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/clocale:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/locale.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/iosfwd:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cctype:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/ostream_insert.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/cxxabi_forced.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/basic_string.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ext/atomicity.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/gthr.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/gthr-default.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/pthread.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/sched.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/linux/sched.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/atomic_word.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/basic_string.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/uses_allocator.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_multimap.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/sstream:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/istream:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ios:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/ios_base.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/locale_classes.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/locale_classes.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/streambuf:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/streambuf.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/basic_ios.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/locale_facets.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cwctype:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/wctype.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/ctype_base.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/streambuf_iterator.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/arm-linux-androideabi/bits/ctype_inline.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/locale_facets.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/basic_ios.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/ostream:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/ostream.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/istream.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/sstream.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/queue:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/deque:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_deque.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/deque.tcc:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_heap.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/stl_queue.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/unordered_map:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/hashtable.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/hashtable_policy.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/bits/unordered_map.h:
+
+globalincs/safe_strings.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../include/c++/4.9/cstdarg:
+
+freespace2/freespace.h:
+
+camera/camera.h:
+
+globalincs/globals.h:
+
+graphics/2d.h:
+
+bmpman/bmpman.h:
+
+cfile/cfile.h:
+
+graphics/tmapper.h:
+
+object/object.h:
+
+math/vecmat.h:
+
+physics/physics.h:
+
+globalincs/systemvars.h:
+
+io/timer.h:
+
+ship/ship.h:
+
+ai/ai.h:
+
+ai/ai_profiles.h:
+
+object/waypoint.h:
+
+fireball/fireballs.h:
+
+model/modelrender.h:
+
+graphics/gropengltnl.h:
+
+graphics/gropengl.h:
+
+/usr/X11/include/GL/gl.h:
+
+/usr/X11/include/GL/glext.h:
+
+/usr/X11/include/GL/glu.h:
+
+graphics/grinternal.h:
+
+graphics/font.h:
+
+graphics/shadows.h:
+
+model/model.h:
+
+lighting/lighting.h:
+
+hud/hud.h:
+
+hud/hudgauges.h:
+
+hud/hudparse.h:
+
+model/modelanim.h:
+
+network/multi_obj.h:
+
+palman/palman.h:
+
+radar/radarsetup.h:
+
+hud/hudconfig.h:
+
+render/3d.h:
+
+graphics/grbatch.h:
+
+species_defs/species_defs.h:
+
+gamesnd/gamesnd.h:
+
+mission/missionparse.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/setjmp.h:
+
+/Users/kkszysiu/Projects/Games/fs2open.github.com/android/nativeandroidtoolchain//sysroot/usr/include/machine/setjmp.h:
+
+io/keycontrol.h:
+
+controlconfig/controlsconfig.h:
+
+parse/sexp.h:
+
+sound/sound.h:
+
+graphics/generic.h:
+
+anim/animplay.h:
+
+mission/missionbriefcommon.h:
+
+anim/packunpack.h:
+
+weapon/shockwave.h:
+
+weapon/trails.h:
+
+weapon/corkscrew.h:
+
+weapon/weapon.h:

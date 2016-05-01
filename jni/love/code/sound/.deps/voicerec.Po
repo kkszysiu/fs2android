@@ -1,0 +1,1 @@
+sound/voicerec.o: sound/voicerec.cpp
