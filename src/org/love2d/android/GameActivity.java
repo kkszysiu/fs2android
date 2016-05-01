@@ -32,6 +32,7 @@ import android.util.DisplayMetrics;
 import android.widget.Toast;
 import android.view.*;
 import android.content.pm.PackageManager;
+import android.system.Os
 
 public class GameActivity extends SDLActivity {
     private static DisplayMetrics metrics = new DisplayMetrics();
@@ -40,10 +41,11 @@ public class GameActivity extends SDLActivity {
     private static Vibrator vibrator = null;
     private static boolean immersiveActive = false;
 
-		@Override 
+		@Override
 		protected String[] getLibraries() {
 			return new String[] {
-       "gnustl_shared",
+       "c++_shared",
+       "jansson",
        "mpg123",
        "openal",
        "love",
@@ -53,9 +55,9 @@ public class GameActivity extends SDLActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
       Log.d("GameActivity", "started");
- 
+
       context = this.getApplicationContext();
-			
+
 			String permission = "android.permission.VIBRATE";
 			int res = context.checkCallingOrSelfPermission(permission);
 			if (res == PackageManager.PERMISSION_GRANTED) {
@@ -198,7 +200,7 @@ public class GameActivity extends SDLActivity {
       i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       context.startActivity(i);
     }
-  
+
     void copyGameToCache (Uri sourceuri)
     {
       String destinationFilename = this.getCacheDir().getPath()+"/downloaded.love";
@@ -233,11 +235,11 @@ public class GameActivity extends SDLActivity {
           do {
             bos.write(buf, 0, chunk_read);
             bytes_written += chunk_read;
-            chunk_read = bis.read(buf);        
+            chunk_read = bis.read(buf);
           } while(chunk_read != -1);
         } catch (IOException e) {
           Log.d ("GameActivity", "Copying failed:" + e.getMessage());
-        } 
+        }
       }
 
       // close streams
